@@ -23,7 +23,7 @@
   <div class="container">
     <div class="site-header">
       <h1>Jam Box Studios</h1>
-
+      <div itemscope itemtype="main-nav">
       <div class="main-nav">
         <nav>
         <ul>
@@ -34,8 +34,10 @@
         </nav>
         </ul>
       </div>
+    </div>
       <img src="https://picsum.photos/1200/900" class="banner">
     </div>
+    <div itemscope itemtype="main-content">
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
@@ -44,18 +46,29 @@
       <div class="owner">
         <h1>Meet the owner</h1>
         <ul>
+          <div itemprop="Name">
           <li>Name: John Doe</li>
+          </div>
+          <div itemprop="Title">
           <li>Title: CEO</li>
+          </div>
+          <div itemprop="Email">
           <li>Email: johnjoe@jambox.ca</li>
+          </div>
+          <div itemprop="Phone">
           <li>Phone: 613-000-0000</li>
+          </div>
         </ul>
         <h1>Address</h1>
         <p>
+          <div itemprop="Address">
+            
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
           B3T 0L0
         </p>
+      </div>
       </div>
       <div class="contact-section">
         <h1>Contact Us</h1>
@@ -70,6 +83,7 @@
         </form>
       </div>
     </div>
+  </div>
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
     </div>
